@@ -1,0 +1,19 @@
+{
+  "content_id": "",
+  "content_type": "text/html;charset=utf-8",
+  "error": "HTTP 404",
+  "etag": "",
+  "fetched_at": "2026-08-19T00:51:54Z",
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "455",
+    "Content-Type": "text/html;charset=utf-8",
+    "Date": "Wed, 19 Aug 2026 00:51:54 GMT",
+    "Server": "BaseHTTP/0.6 Python/3.14.0"
+  },
+  "last_modified": "",
+  "reason": "checking a dead link",
+  "size": 0,
+  "status": 404,
+  "url": "http://127.0.0.1:54353/gone"
+}

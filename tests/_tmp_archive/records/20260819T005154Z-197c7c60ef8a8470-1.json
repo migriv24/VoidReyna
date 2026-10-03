@@ -1,0 +1,16 @@
+{
+  "content_id": "197c7c60ef8a8470a38d1a9212bdfde9cfe6fd4be910825fe6ac7880ac765d16",
+  "content_type": "",
+  "error": "",
+  "etag": "",
+  "fetched_at": "2026-08-19T00:51:54Z",
+  "headers": {
+    "Date": "Wed, 19 Aug 2026 00:51:54 GMT",
+    "Server": "BaseHTTP/0.6 Python/3.14.0"
+  },
+  "last_modified": "",
+  "reason": "sweep",
+  "size": 0,
+  "status": 304,
+  "url": "http://127.0.0.1:54353/doc"
+}

@@ -1,0 +1,42 @@
+# THE ARCHIVE — harvested bytes from the public web. Never committed.
+# Rule 2: the repo root is a public artifact. Harvested material lives only
+# where the tool puts it at runtime, and it can be large, personal-adjacent,
+# and republished-without-thinking, so the ignore is broad on purpose.
+archive/
+harvest/
+snapshots/
+media/
+*.warc
+*.warc.gz
+
+# Model weights and caches — never vendored, never committed (they are why this
+# project is separate from Hormiga in the first place).
+models/
+.cache/
+*.pt
+*.onnx
+*.bin
+
+# Emitted command transcripts and bundles: derived output, and they may carry
+# harvested content.
+out/
+*.voidscript
+*.miga
+
+# Credentials — NEVER committed. Not one key, not "just for dev".
+.env
+*.key
+secrets*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# scratch drop for source material under examination — see Hormiga's equivalent
+temp-assets/

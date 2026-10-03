@@ -1,0 +1,18 @@
+{
+  "content_id": "5adb24bef9e028929ef126bcde4a66c6fbadeecc43b09dc9249beda6dc8edeb8",
+  "content_type": "text/plain",
+  "error": "",
+  "etag": "\"v2\"",
+  "fetched_at": "2026-08-19T00:51:54Z",
+  "headers": {
+    "Content-Type": "text/plain",
+    "Date": "Wed, 19 Aug 2026 00:51:54 GMT",
+    "ETag": "\"v2\"",
+    "Server": "BaseHTTP/0.6 Python/3.14.0"
+  },
+  "last_modified": "",
+  "reason": "sweep",
+  "size": 27,
+  "status": 200,
+  "url": "http://127.0.0.1:54353/doc"
+}

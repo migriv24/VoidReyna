@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voidreyna"
+version = "0.1.0"
+description = "Void Reyna - harvest, archive, extract, emit. A dataset generator."
+license = "MIT"
+requires-python = ">=3.10"
+# NO REQUIRED DEPS, on purpose and following Void Core's own model: the evidence
+# locker must work with stdlib alone. Extras pull their own weight only when the
+# phase that needs them arrives -- which is the same rule that let this project
+# be separate from Hormiga in the first place.
+dependencies = []
+
+[project.optional-dependencies]
+core = ["voidcore"]          # emitting command transcripts (phase 2)
+pdf = ["pypdf>=4"]           # minutes parsing (phase 2)
+speech = []                  # phase 5; deliberately empty until then
+
+[project.scripts]
+reyna = "reyna.cli:main"
+
+[tool.setuptools]
+packages = ["reyna"]
